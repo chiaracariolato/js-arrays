@@ -42,16 +42,15 @@ const teachers = [
   
   // 8. Verifica se l'array teachers è vuoto
   // e salva il risultato nella variabile isTeachersEmpty
-  const isTeachersEmpty = teachers.length;
+  const isTeachersEmpty = teachers.length == 0;
   console.log("La lunghezza dell'array è " + isTeachersEmpty);
 
   // Metodo alternativo
-  // let n = teachers.length;
   // let isTeacherEmpty = ""
 
   // console.log(n);
 
-  // if (n != 0) {
+  // if (teachers.length != 0) {
   //   isTeachersEmpty = "non è vuoto"
   // } else {
   //   isTeachersEmpty = "è vuoto"

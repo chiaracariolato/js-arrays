@@ -10,9 +10,18 @@ const teachers = [
   
   // 1. Inverti l'ordine degli insegnanti nell'array teachers
   // e salva il risultato nella variabile reversedTeachers
-  let reversedTeachers = "";
+  
+  // Opzione 1 in stringa
+  // let reversedTeachers = [];
+  // for (let i = teachers.length - 1; i >= 0; --i) {
+  //   reversedTeachers = reversedTeachers + teachers[i] + " "
+  // }
+  // console.log(reversedTeachers);
+
+  // Opzione 2 in array
+  let reversedTeachers = [];
   for (let i = teachers.length - 1; i >= 0; --i) {
-    reversedTeachers = reversedTeachers + teachers[i] + " "
+    reversedTeachers.push(teachers[i])
   }
   console.log(reversedTeachers);
   
